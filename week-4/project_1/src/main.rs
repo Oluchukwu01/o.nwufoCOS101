@@ -21,7 +21,7 @@ fn main() {
     let d:f32 = b * b - 4.0 * a * c;
     println!("Discriminant is {}", d);
 
-    if d >= 0.0 {
+    if d > 0.0 {
         let root1:f32 = (-b + d.sqrt()) / (2.0 * a);
         let root2:f32 = (-b - d.sqrt()) / (2.0 * a);
         println!("x1 = {}", root1);
