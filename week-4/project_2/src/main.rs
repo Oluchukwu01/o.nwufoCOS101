@@ -19,11 +19,11 @@ fn main () {
 
 
     if experience < 7.0 {
-        println!("Inexperienced");
+        println!("Inexperienced.");
         println!("Incentive is {}", a);
     }
     else {
-        println!("Experienced");
+        println!("Experienced.");
         if age >= 40.0 {
             println!("Incentive is {}", d);
         }
