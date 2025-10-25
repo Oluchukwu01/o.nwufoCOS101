@@ -34,7 +34,7 @@ fn main() {
     else {
         let real_root:f32 = -b / (2.0 * a);
         let imag_root:f32 = -d.sqrt() / (2.0 * a);
-        println!("complex roots are:");
+        println!("The complex roots are:");
         println!("x1 = {} + {}i", real_root, imag_root);
         println!("x2 = {} - {}i", real_root, imag_root );
     }
