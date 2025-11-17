@@ -1,13 +1,12 @@
-fn main () {
-let p:f64 = 520000000.0;
-let r:f64 = 10.0;
-let n:f64 = 5.0;
+fn main(){
+	let principal:f64 = 520000000.00;
+	let time:f64 = 5.0;
+	let rate:f64 = 10.0;
 
-	// compound interest
-	let a = p * (1.0 + (r / 100.0)) * n;
-	println!("Amount is {}", a);
-	let cl = a - p;
-	println!("Compound Interest is {}", cl);
+	let mut amount = principal*(1.0+(rate/100))*time;
 
+	let ci = amount - principal;
 
+	println!("This is the total amount after 5 years {}",amount);
+	println!("This is the Compund interest after 5 years: {}",ci);
 }
