@@ -1,0 +1,19 @@
+Lager:
+ - 33 Export
+ - Desperados
+ - Goldberg
+ - Gulder
+ - Heineken
+ - Star
+
+Non-Alcoholic:
+ - Maltina
+ - Amstel Malta
+ - Malta Gold
+ - Fayrouz
+
+Stout:
+ - Legend
+ - Turbo King
+ - Williams
+
